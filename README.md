@@ -19,7 +19,7 @@ Model evaluation was based on training performance (**CV score**) and performanc
 The confusion matrix tells us how many true positives, true negatives, false positives and false negatives there are in the predicted results. This gives us inituition as to how good the model is at differentiating between a positive (error) and negative (no error) class label.
 
 ## AUROC
-The area under the ROC curve provides us the model's classification performance, based on the **True positive rate (TPR)** and **False positive rate (FPR)** metrics. The closer it is to 1, the better.
+The area under the ROC curve provides us the model's classification performance, based on the **True positive rate (TPR)** and **False positive rate (FPR)** metrics. The closer it is to 1, the better. As for the graph, the higher the blue line is from the diagonal line, the better.
 
 ![ROC Curve](https://github.com/maxxytjr/UniversalRobotsErrorPrediction/blob/master/auroc.JPG)
 
